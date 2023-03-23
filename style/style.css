@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://cdnb.artstation.com/p/marketplace/presentation_assets/000/341/707/large/file.jpg?1586770665);
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: yellow;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10 px 0px;
+    }
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 50px ;
+}
+
